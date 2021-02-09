@@ -14,7 +14,7 @@ There are two possible ways to submit your project. Your instructor should have 
 
 #### Option A - Codegrade
 
-- [ ] Fork and clone the repository.
+- [x] Fork and clone the repository.
 - [ ] Open the assignment in Canvas and click on the "Set up git" option.
 - [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
 - [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
@@ -65,7 +65,7 @@ You can find them inside `api/users/model.js`. All of these functions return Pro
 - `findById` Takes an `id` and resolves to the user with that id (or null if the id does not exist).
 - `insert` Takes a new user `{ name, bio }` and resolves to the the newly created user `{ id, name, bio }`.
 - `update` Takes an `id` and an existing user `{ name, bio }` and resolves the updated user `{ id, name, bio}` (or null if the id does not exist).
-- `remove` Takes an `id`  and resolves to the deleted user `{ id, name, bio }`.
+- `remove` Takes an `id` and resolves to the deleted user `{ id, name, bio }`.
 
 #### Endpoint Specifications
 
